@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { results, resultsDisclosure, testimonials } from "@/data/site";
+import { results, resultsDisclosure } from "@/data/site";
 import { Section, SectionHeading } from "@/components/layout/Section";
 
 export function ResultsGallery({ showHeader = true }: { showHeader?: boolean }) {
@@ -56,26 +56,6 @@ export function ResultsGallery({ showHeader = true }: { showHeader?: boolean }) 
             </span>
           </button>
         ))}
-      </div>
-      <div className="mt-12 border border-line p-6">
-        <p className="text-xs tracking-[0.2em] text-muted uppercase">Student stories</p>
-        {testimonials.length === 0 ? (
-          <>
-            <h3 className="mt-3 text-2xl font-semibold tracking-tight uppercase">Student stories coming soon</h3>
-            <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted">
-              Stories from MARKEX students will appear here when the academy publishes them.
-            </p>
-          </>
-        ) : (
-          <ul className="mt-4 grid gap-4">
-            {testimonials.map((item) => (
-              <li key={item.id} className="border-t border-line pt-4">
-                <p>{item.quote}</p>
-                <p className="mt-2 text-sm text-muted">{item.name}</p>
-              </li>
-            ))}
-          </ul>
-        )}
       </div>
       <p className="mt-8 max-w-3xl text-sm leading-relaxed text-muted">{resultsDisclosure}</p>
 
