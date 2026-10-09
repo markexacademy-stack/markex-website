@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "22"
+  NEXT_TELEMETRY_DISABLED = "1"
+
+# Serves the Next.js app. Do not set a publish folder to public or the repo root.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
