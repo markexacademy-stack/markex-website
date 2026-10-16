@@ -20,7 +20,7 @@ export default function PricingPage() {
       <PageHero
         eyebrow="Pricing"
         title="₹15,000. Two clear steps."
-        text="₹5,000 begins the 2-week intensive program. After the performance review, ₹10,000 continues into the advanced membership."
+        text="Total advertised fee ₹15,000. Initial ₹5,000 enrolls you in the two-week intensive program. The ₹10,000 advanced membership is a separate step."
       />
       <section className="mx-auto w-full max-w-7xl px-5 py-16 md:px-8">
         <h2 className="text-3xl font-semibold uppercase">What is included</h2>
@@ -46,9 +46,18 @@ export default function PricingPage() {
         </ul>
       </section>
       <Pricing showHeader={false} />
-      <p className="mx-auto w-full max-w-7xl px-5 text-sm text-muted md:px-8">
+      <p className="mx-auto flex w-full max-w-7xl flex-wrap gap-x-4 gap-y-2 px-5 text-sm text-muted md:px-8">
         <Link href="/refund-policy" className="underline decoration-line underline-offset-4">
-          Refund policy
+          Refund Policy
+        </Link>
+        <Link href="/cancellation-policy" className="underline decoration-line underline-offset-4">
+          Cancellation Policy
+        </Link>
+        <Link href="/shipping-policy" className="underline decoration-line underline-offset-4">
+          Shipping / Service Delivery Policy
+        </Link>
+        <Link href="/terms" className="underline decoration-line underline-offset-4">
+          Terms and Conditions
         </Link>
       </p>
       <RiskDisclosure />

@@ -3,7 +3,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 
 export const runtime = "nodejs";
-export const alt = "MARKEX Forex Trading Academy. Trade with Knowledge.";
+export const alt = "MARKEX Trading Academy. Trade with Knowledge.";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 

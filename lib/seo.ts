@@ -2,7 +2,7 @@ import { faqs } from "@/data/faq";
 import { site } from "@/data/site";
 
 export const defaultDescription =
-  "MARKEX Forex Trading Academy helps beginners and developing traders build practical knowledge in forex market analysis, risk management, trading psychology and disciplined trading.";
+  "MARKEX Trading Academy provides structured educational programs on forex fundamentals, technical analysis, trading strategies, psychology and risk management.";
 
 export function organizationJsonLd() {
   return {
@@ -13,6 +13,16 @@ export function organizationJsonLd() {
     logo: `${site.domain}/brand/markex-logo.jpg`,
     slogan: site.tagline,
     description: site.positioning,
+    email: site.email,
+    telephone: site.phone,
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Mittathanickal House, Prakash P.O., Udayagiri",
+      addressLocality: "Idukki",
+      addressRegion: "Kerala",
+      postalCode: "685609",
+      addressCountry: "IN",
+    },
   };
 }
 
@@ -29,9 +39,9 @@ export function courseJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "Course",
-    name: "MARKEX Forex Trading Program",
+    name: "MARKEX Trading Academy Educational Program",
     description:
-      "A two-week intensive forex education program followed by an optional advanced membership covering analysis, risk management, trading psychology and funded-account preparation.",
+      "A two-week intensive educational program. Total advertised fee ₹15,000. Initial ₹5,000 covers the intensive enrollment. ₹10,000 is a separate advanced membership payment.",
     provider: {
       "@type": "Organization",
       name: site.fullName,

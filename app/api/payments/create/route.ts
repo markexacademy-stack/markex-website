@@ -56,11 +56,9 @@ export async function POST(request: Request) {
     amount: created.amount,
     currency: created.currency,
     status: created.status,
-    checkout: gatewayConfigured()
-      ? { provider: process.env.PAYMENT_GATEWAY_PROVIDER || "configured" }
-      : null,
+    checkout: gatewayConfigured() ? { ready: true } : null,
     message: gatewayConfigured()
-      ? "A payment session was created. Complete it only through the verified gateway. MARKEX confirms payment from the gateway webhook, not from this page."
-      : "Your enrollment request is registered. A MARKEX representative will share the verified payment step. This page cannot mark a payment as successful.",
+      ? "Your payment is being processed. Please check your transaction status before attempting another payment. Complete your payment using the available payment method."
+      : "Your enrollment request is registered. A MARKEX representative will share the payment step. This page cannot mark a payment as successful.",
   });
 }

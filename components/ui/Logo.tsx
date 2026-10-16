@@ -14,7 +14,7 @@ export function Logo({ variant = "full", className, priority = false }: LogoProp
     <span className={cn("logo-slot", mark ? "logo-slot-mark" : "logo-slot-full", className)}>
       <Image
         src={mark ? "/brand/markex-mark.png" : "/brand/markex-logo.png"}
-        alt={mark ? "MARKEX" : "MARKEX Forex Trading Academy. Trade with Knowledge."}
+        alt={mark ? "MARKEX" : "MARKEX Trading Academy. Trade with Knowledge."}
         width={mark ? 512 : 633}
         height={mark ? 512 : 559}
         priority={priority}

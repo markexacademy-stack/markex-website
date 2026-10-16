@@ -103,8 +103,7 @@ export function EnrollmentForm({
       <div role="status" className="border border-accent/40 bg-surface p-6">
         <p className="text-lg text-paper">{message}</p>
         <p className="mt-3 text-sm leading-relaxed text-muted">
-          Initial enrollment is {formatInr(pricing.initial)}. The advanced membership is{" "}
-          {formatInr(pricing.membership)}. Payment is confirmed only after a verified gateway webhook.
+          The initial payment of {formatInr(pricing.initial)} enrolls you in the two-week program and is part of the {formatInr(pricing.total)} total advertised fee. The {formatInr(pricing.membership)} advanced membership is a separate step. Payment is confirmed only after MARKEX verifies it. This page cannot mark a payment as successful. If your payment was successful but you cannot access your course, contact {site.email} or {site.phoneLabel}.
         </p>
         {leadId ? (
           <div className="mt-5 flex flex-col gap-3 sm:flex-row">

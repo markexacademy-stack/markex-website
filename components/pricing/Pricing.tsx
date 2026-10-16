@@ -13,7 +13,9 @@ export function Pricing({ showHeader = true }: { showHeader?: boolean }) {
           <p className="text-xs tracking-[0.2em] text-accent uppercase">Step 01</p>
           <p className="price-figure mt-4 text-4xl font-semibold md:text-5xl">{formatInr(pricing.initial)}</p>
           <h3 className="mt-2 text-lg uppercase">Initial enrollment</h3>
-          <p className="mt-4 text-sm leading-relaxed text-muted">2-week intensive program, followed by a performance review.</p>
+          <p className="mt-4 text-sm leading-relaxed text-muted">
+            Enrollment in the two-week intensive educational program. This is part of the ₹15,000 total advertised fee. It does not automatically purchase advanced-membership benefits.
+          </p>
         </article>
         <div className="flex items-center justify-center text-2xl text-accent">↓</div>
         <article className="price-b panel p-6 md:p-8">
@@ -21,7 +23,7 @@ export function Pricing({ showHeader = true }: { showHeader?: boolean }) {
           <p className="price-figure mt-4 text-4xl font-semibold md:text-5xl">{formatInr(pricing.membership)}</p>
           <h3 className="mt-2 text-lg uppercase">Advanced membership</h3>
           <p className="mt-4 text-sm leading-relaxed text-muted">
-            Community, continuing education, applicable signals or market updates, and funded-account preparation.
+            A separate payment for advanced membership after the intensive program and performance review. It may include community access, continuing education, applicable market updates or signals where legally permissible, and funded-account preparation. It is not purchased by the initial ₹5,000 payment alone.
           </p>
         </article>
       </div>
@@ -38,9 +40,17 @@ export function Pricing({ showHeader = true }: { showHeader?: boolean }) {
         </div>
       </div>
       <p className="mt-6 max-w-3xl text-sm leading-relaxed text-muted">
-        Enrollment assurance may be available subject to the official MARKEX Refund Policy.{" "}
+        ₹5,000 + ₹10,000 = ₹15,000. After completing the two-week intensive program, a student who is dissatisfied with the learning experience may request a refund of the initial enrollment amount actually paid (₹5,000 when that is the amount paid). A request is reviewed. It is not an automatic refund.{" "}
         <Link href="/refund-policy" className="text-paper underline decoration-line underline-offset-4">
-          Read the refund policy
+          Refund Policy
+        </Link>
+        {" · "}
+        <Link href="/cancellation-policy" className="text-paper underline decoration-line underline-offset-4">
+          Cancellation Policy
+        </Link>
+        {" · "}
+        <Link href="/terms" className="text-paper underline decoration-line underline-offset-4">
+          Terms and Conditions
         </Link>
         .
       </p>

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { EnrollmentForm } from "@/components/contact/EnrollmentForm";
 import { Logo } from "@/components/ui/Logo";
 import { pricing } from "@/data/site";
@@ -6,7 +7,8 @@ import { formatInr } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Enroll",
-  description: "Start a MARKEX enrollment enquiry. The initial step is ₹5,000. The total program fee is ₹15,000.",
+  description:
+    "Start a MARKEX enrollment enquiry. Total advertised fee ₹15,000. Initial ₹5,000 covers the two-week program. ₹10,000 is a separate advanced membership payment.",
   alternates: { canonical: "/enroll" },
 };
 
@@ -17,7 +19,23 @@ export default function EnrollPage() {
         <Logo priority className="logo-float" />
         <h1 className="mt-8 text-4xl font-semibold tracking-tight uppercase">MARKEX enrollment form</h1>
         <p className="mt-4 text-muted">
-          Initial enrollment {formatInr(pricing.initial)}. Advanced membership {formatInr(pricing.membership)}. Total {formatInr(pricing.total)}.
+          Initial enrollment {formatInr(pricing.initial)} for the two-week intensive program. Advanced membership{" "}
+          {formatInr(pricing.membership)} is a separate step. Total advertised fee {formatInr(pricing.total)}.
+        </p>
+        <p className="mt-4 text-sm leading-relaxed text-muted">
+          Before you enroll, read the{" "}
+          <Link href="/refund-policy" className="text-paper underline decoration-line underline-offset-4">
+            Refund Policy
+          </Link>
+          ,{" "}
+          <Link href="/cancellation-policy" className="text-paper underline decoration-line underline-offset-4">
+            Cancellation Policy
+          </Link>{" "}
+          and{" "}
+          <Link href="/terms" className="text-paper underline decoration-line underline-offset-4">
+            Terms and Conditions
+          </Link>
+          .
         </p>
       </div>
       <EnrollmentForm intent="enroll" />

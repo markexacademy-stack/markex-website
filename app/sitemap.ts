@@ -18,6 +18,8 @@ const routes = [
   "/privacy-policy",
   "/terms",
   "/refund-policy",
+  "/cancellation-policy",
+  "/shipping-policy",
   "/risk-disclosure",
   "/disclaimer",
 ];

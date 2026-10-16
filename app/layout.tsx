@@ -19,8 +19,8 @@ const sans = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(site.domain),
   title: {
-    default: "MARKEX Forex Trading Academy | Learn. Analyze. Trade. Grow.",
-    template: "%s · MARKEX",
+    default: "MARKEX Trading Academy | Trading Education",
+    template: "%s | MARKEX Trading Academy",
   },
   description: defaultDescription,
   applicationName: site.name,
@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     type: "website",
     url: site.domain,
     siteName: site.fullName,
-    title: "MARKEX Forex Trading Academy | Learn. Analyze. Trade. Grow.",
+    title: "MARKEX Trading Academy | Trading Education",
     description: defaultDescription,
     locale: "en_IN",
   },
   twitter: {
     card: "summary_large_image",
-    title: "MARKEX Forex Trading Academy | Learn. Analyze. Trade. Grow.",
+    title: "MARKEX Trading Academy | Trading Education",
     description: defaultDescription,
   },
   robots: { index: true, follow: true },

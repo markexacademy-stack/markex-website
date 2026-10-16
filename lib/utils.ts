@@ -23,7 +23,7 @@ export function digitsOnly(value: string) {
 }
 
 export function whatsappHref(message: string) {
-  let digits = digitsOnly(process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "918590861862");
+  let digits = digitsOnly(process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "918137864105");
   if (digits.length === 10) digits = `91${digits}`;
   if (!digits) return null;
   return `https://wa.me/${digits}?text=${encodeURIComponent(message)}`;

@@ -2,9 +2,9 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "MARKEX Forex Trading Academy",
+    name: "MARKEX Trading Academy",
     short_name: "MARKEX",
-    description: "Structured forex trading education. Learn. Analyze. Trade. Grow.",
+    description: "Structured educational programs on financial markets and trading. Learn. Analyze. Trade. Grow.",
     start_url: "/",
     display: "standalone",
     background_color: "#050505",

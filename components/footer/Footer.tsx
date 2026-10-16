@@ -15,10 +15,16 @@ const programLinks = [
 ];
 
 const legal = [
-  { href: "/privacy-policy", label: "Privacy" },
-  { href: "/terms", label: "Terms" },
-  { href: "/refund-policy", label: "Refund" },
-  { href: "/risk-disclosure", label: "Risk" },
+  { href: "/about", label: "About Us" },
+  { href: "/contact", label: "Contact Us" },
+  { href: "/pricing", label: "Pricing" },
+  { href: "/faq", label: "FAQ" },
+  { href: "/privacy-policy", label: "Privacy Policy" },
+  { href: "/terms", label: "Terms and Conditions" },
+  { href: "/refund-policy", label: "Refund Policy" },
+  { href: "/cancellation-policy", label: "Cancellation Policy" },
+  { href: "/shipping-policy", label: "Shipping / Service Delivery Policy" },
+  { href: "/risk-disclosure", label: "Risk Disclosure" },
   { href: "/disclaimer", label: "Disclaimer" },
 ];
 
@@ -35,8 +41,9 @@ export function Footer() {
           <div className="grid items-center gap-12 lg:grid-cols-[1.1fr_auto_1fr]">
             <div className="max-w-xs">
               <Logo />
-              <p className="mt-5 text-[11px] tracking-[0.32em] text-muted uppercase">Markex</p>
+              <p className="mt-5 text-[11px] tracking-[0.32em] text-muted uppercase">{site.fullName}</p>
               <p className="mt-2 text-2xl tracking-tight text-accent">{site.tagline}</p>
+              <p className="mt-4 text-sm text-paper/90">Operated by {site.legalOperator}</p>
             </div>
             <div className="grid h-36 w-36 place-items-center justify-self-center rounded-full border border-white/15">
               <div className="grid h-28 w-28 place-items-center rounded-full border border-accent/40 bg-[#050505]">
@@ -66,6 +73,14 @@ export function Footer() {
                     </Link>
                   </li>
                 ))}
+                <li>
+                  <Link href="/contact" className="group inline-flex items-center gap-2 text-sm text-paper/90 transition hover:text-accent">
+                    <span className="text-accent" aria-hidden>
+                      ›
+                    </span>
+                    Contact Us
+                  </Link>
+                </li>
                 <li>
                   <Link href="/blog" className="group inline-flex items-center gap-2 text-sm text-paper/90 transition hover:text-accent">
                     <span className="text-accent" aria-hidden>
@@ -104,8 +119,19 @@ export function Footer() {
                 >
                   WhatsApp {site.whatsappLabel}
                 </a>
-                {site.phone ? <a href={`tel:${site.phone}`}>{site.phone}</a> : null}
-                {site.email ? <a href={`mailto:${site.email}`}>{site.email}</a> : null}
+                <a href={`tel:${site.phone}`} className="transition hover:text-accent">
+                  {site.phoneLabel}
+                </a>
+                <a href={`mailto:${site.email}`} className="transition hover:text-accent">
+                  {site.email}
+                </a>
+                <address className="not-italic text-muted">
+                  {site.addressLines.map((line) => (
+                    <span key={line} className="block">
+                      {line}
+                    </span>
+                  ))}
+                </address>
                 {social.map((item) => (
                   <a key={item.href} href={item.href} className="transition hover:text-accent" rel="noreferrer">
                     {item.label}
@@ -130,7 +156,7 @@ export function Footer() {
             Trading financial markets involves substantial risk and may not be suitable for everyone. Past performance does not guarantee future results.
           </p>
           <p className="mt-6 text-center text-[11px] tracking-[0.22em] text-muted uppercase">
-            © 2026 MARKEX Forex Trading Academy. All rights reserved.
+            © 2026 MARKEX Trading Academy. All rights reserved.
           </p>
           <nav className="mt-4 flex flex-wrap items-center justify-center gap-x-4 gap-y-2" aria-label="Legal">
             {legal.map((item) => (

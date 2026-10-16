@@ -2,16 +2,26 @@ import type { Testimonial } from "@/types";
 
 export const site = {
   name: "MARKEX",
-  fullName: "MARKEX Forex Trading Academy",
+  fullName: "MARKEX Trading Academy",
   tagline: "Trade with Knowledge",
   domain: "https://markex-academy.com",
   philosophy: ["Learn", "Analyze", "Trade", "Grow"],
   positioning:
-    "Build the knowledge, discipline and structured approach required to understand and approach the forex market.",
-  email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "",
-  phone: process.env.NEXT_PUBLIC_CONTACT_PHONE ?? "",
-  whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "918590861862",
-  whatsappLabel: "8590861862",
+    "MARKEX Trading Academy provides structured educational programs covering forex market fundamentals, technical analysis, price action, trading strategies, trading psychology, risk management and trading discipline.",
+  legalOperator: "Akhil Shijo",
+  operatorStatement: "This website is operated by Akhil Shijo.",
+  email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "markexacademy@gmail.com",
+  phone: process.env.NEXT_PUBLIC_CONTACT_PHONE || "+918137864105",
+  phoneLabel: "+91 81378 64105",
+  addressLines: [
+    "Mittathanickal House",
+    "Prakash P.O., Udayagiri",
+    "Idukki, Kerala, India – 685609",
+  ],
+  whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "918137864105",
+  whatsappLabel: "81378 64105",
+  supportResponseTarget: "within 2 business days",
+  refundInitiationBusinessDays: 7,
 } as const;
 
 export function socialLinks(): { label: string; href: string }[] {
@@ -49,7 +59,7 @@ export const navLinks = [
   { label: "Method", href: "/#method", page: "/method", section: "method" },
   { label: "Results", href: "/#results", page: "/results", section: "results" },
   { label: "Community", href: "/#community", page: "/community", section: "community" },
-  { label: "About", href: "/#about", page: "/about", section: "about" },
+  { label: "About Us", href: "/#about", page: "/about", section: "about" },
   { label: "Pricing", href: "/#pricing", page: "/pricing", section: "pricing" },
   { label: "FAQ", href: "/#faq", page: "/faq", section: "faq" },
 ] as const;

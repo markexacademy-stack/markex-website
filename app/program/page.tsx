@@ -30,7 +30,7 @@ export default function ProgramPage() {
         <div>
           <h2 className="text-3xl font-semibold tracking-tight uppercase">Program overview</h2>
           <p className="mt-4 leading-relaxed text-muted">
-            The first payment of ₹5,000 begins the intensive program. Week 01 builds foundations. Week 02 moves into planning, risk, psychology and review. A performance review follows the two weeks.
+            The total advertised program fee is ₹15,000. The initial ₹5,000 enrolls you in the two-week intensive educational program and does not automatically purchase advanced-membership benefits. The ₹10,000 advanced membership is a separate step. Week 01 builds foundations. Week 02 moves into planning, risk, psychology and review. A performance review follows the two weeks.
           </p>
         </div>
         <div>

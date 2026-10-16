@@ -48,7 +48,7 @@ export function Navbar() {
         <Link href="/#hero" aria-label="MARKEX home" className="flex h-14 w-14 items-center justify-center">
           <Logo variant="mark" priority className="logo-float" />
         </Link>
-        <nav className="hidden items-center gap-6 lg:flex" aria-label="Primary">
+        <nav className="hidden items-center gap-4 xl:gap-5 lg:flex" aria-label="Primary">
           {navLinks.map((link) => {
             const href = onHome ? link.href : link.page;
             const current = onHome ? active === link.section : pathname === link.page;
@@ -67,6 +67,9 @@ export function Navbar() {
               </Link>
             );
           })}
+          <Link href="/contact" className="relative text-[11px] tracking-[0.18em] text-muted uppercase hover:text-paper">
+            Contact Us
+          </Link>
         </nav>
         <div className="hidden lg:block">
           <EnrollButton className="min-h-10 px-4">Start learning</EnrollButton>
@@ -91,7 +94,7 @@ export function Navbar() {
               </Link>
             ))}
             <Link href="/contact" className="border-b border-line py-4 text-2xl tracking-tight uppercase">
-              Contact
+              Contact Us
             </Link>
           </nav>
           <div className="mt-8">

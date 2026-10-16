@@ -1,40 +1,21 @@
-# MARKEX Forex Trading Academy
+# MARKEX Trading Academy
 
-Production website for [markex-academy.com](https://markex-academy.com/).
+Educational website for MARKEX Trading Academy — structured programs on forex market fundamentals, technical analysis, trading strategies, psychology and risk management.
 
-## Run locally
+- Production domain: https://markex-academy.com/
+- Owner / Proprietor: Akhil Shijo
+- Stack: Next.js App Router, React, TypeScript, Tailwind CSS
+
+## Scripts
 
 ```bash
-npm install
 npm run dev
+npm run build
+npm start
+npm run lint
 ```
 
-Open http://localhost:3000.
+## Notes
 
-## Configure
-
-Copy `.env.example` to `.env.local`. Leave contact fields empty until MARKEX publishes a real phone, email, WhatsApp number or social URL. Do not invent them in the code.
-
-Editable content lives in `data/`:
-
-- `data/site.ts` — pricing, curriculum, payout captions, navigation
-- `data/faq.ts` — questions and answers
-- `data/legal.ts` — policies. Refund eligibility stays empty until MARKEX adds official conditions to `refundEligibility`
-- `data/blog.ts` — market insight notes
-- `types/index.ts` — `testimonials` are listed in `data/site.ts` and start empty
-
-## Payments and CRM
-
-Enquiry form: `POST /api/leads`
-
-Payment session: `POST /api/payments/create` with `{ leadId, purpose }`. Amounts are set on the server (`₹5,000` or `₹10,000`). The browser cannot mark a payment as paid.
-
-Confirmation: `POST /api/payments/webhook` with header `x-markex-signature` set to the hex HMAC-SHA256 of the raw body using `PAYMENT_WEBHOOK_SECRET`.
-
-Paid webhooks create a non-sequential student id (`MKX-26-XXXXX`), enrollment id and receipt.
-
-Admin read API: `GET /api/admin/overview` with `Authorization: Bearer $ADMIN_API_KEY`.
-
-Records are stored in `data/store/crm.json` on the server. Point `CRM_WEBHOOK_URL` at an external CRM when one is ready.
-
-WhatsApp Business sending stays disabled until `WHATSAPP_TOKEN`, `WHATSAPP_PHONE_NUMBER_ID` and `WHATSAPP_TEMPLATE_NAME` are set. Tokens are never sent to the browser.
+Internal compliance notes live in `docs/`. Do not treat those documents as public website pages.
+Changing website text does not automatically update the merchant legal name or brand recorded with a payment provider.
