@@ -25,7 +25,7 @@ export function Membership() {
           <p className="text-xs tracking-[0.2em] text-accent uppercase">Advanced membership</p>
           <p className="price-figure mt-4 text-5xl font-semibold">{formatInr(pricing.membership)}</p>
           <p className="mt-4 text-sm leading-relaxed text-muted">
-            Updates or signals, where included, are educational and not guaranteed. Funded-account preparation does not guarantee approval.
+            A separate educational step after the two-week intensive program. It does not guarantee profits or trading outcomes.
           </p>
         </aside>
       </div>

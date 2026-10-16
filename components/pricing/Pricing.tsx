@@ -23,7 +23,7 @@ export function Pricing({ showHeader = true }: { showHeader?: boolean }) {
           <p className="price-figure mt-4 text-4xl font-semibold md:text-5xl">{formatInr(pricing.membership)}</p>
           <h3 className="mt-2 text-lg uppercase">Advanced membership</h3>
           <p className="mt-4 text-sm leading-relaxed text-muted">
-            A separate payment for advanced membership after the intensive program and performance review. It may include community access, continuing education, applicable market updates or signals where legally permissible, and funded-account preparation. It is not purchased by the initial ₹5,000 payment alone.
+            A separate payment for advanced membership after the intensive program and learning review. It may include community access, continuing education and advanced learning resources. It is not purchased by the initial ₹5,000 payment alone and does not guarantee profits.
           </p>
         </article>
       </div>

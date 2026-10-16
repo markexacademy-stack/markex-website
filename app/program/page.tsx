@@ -38,7 +38,7 @@ export default function ProgramPage() {
           <ul className="mt-4 space-y-3 text-muted">
             <li>Beginners who want a structured start in forex.</li>
             <li>Developing traders who want a clearer process.</li>
-            <li>Students preparing for the discipline of third-party funded evaluations.</li>
+            <li>Anyone seeking organised education on market concepts and risk awareness.</li>
           </ul>
         </div>
       </section>
@@ -49,7 +49,7 @@ export default function ProgramPage() {
       <section className="mx-auto w-full max-w-7xl px-5 py-8 md:px-8">
         <h2 className="text-3xl font-semibold tracking-tight uppercase">Performance review</h2>
         <p className="mt-4 max-w-3xl leading-relaxed text-muted">
-          After the intensive program, MARKEX reviews the student&apos;s learning and practice. That review is the step before the ₹10,000 advanced membership. It is not a promise of profit or of funded-account approval.
+          After the intensive program, MARKEX reviews the student&apos;s learning and practice. That review is the step before the ₹10,000 advanced membership. It is not a promise of profit or trading success.
         </p>
       </section>
       <Membership />

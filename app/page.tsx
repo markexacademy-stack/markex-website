@@ -9,10 +9,8 @@ import { Risk } from "@/components/risk/Risk";
 import { Psychology } from "@/components/psychology/Psychology";
 import { PracticalMarket } from "@/components/market/PracticalMarket";
 import { Experience } from "@/components/experience/Experience";
-import { ResultsGallery } from "@/components/results/ResultsGallery";
 import { Community } from "@/components/community/Community";
 import { Membership } from "@/components/membership/Membership";
-import { FundedPrep } from "@/components/funded/FundedPrep";
 import { Journey } from "@/components/journey/Journey";
 import { Pricing } from "@/components/pricing/Pricing";
 import { Faq } from "@/components/faq/Faq";
@@ -41,10 +39,8 @@ export default function HomePage() {
       <Psychology />
       <PracticalMarket />
       <Experience />
-      <ResultsGallery />
       <Community />
       <Membership />
-      <FundedPrep />
       <Journey />
       <Pricing />
       <Faq />

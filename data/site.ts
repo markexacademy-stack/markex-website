@@ -47,17 +47,16 @@ export const pricing = {
 };
 
 export const stats = [
-  { id: "years", value: 6, suffix: "+", label: "Years of experience" },
-  { id: "students", value: 150, suffix: "+", label: "Students" },
   { id: "program", value: 2, suffix: "-week", label: "Intensive program" },
-  { id: "community", value: null, suffix: "", label: "Community support", text: "Lifetime" },
+  { id: "modules", value: 2, suffix: "", label: "Learning stages" },
+  { id: "focus", value: null, suffix: "", label: "Focus", text: "Education" },
+  { id: "community", value: null, suffix: "", label: "Community support", text: "Ongoing" },
 ] as const;
 
 export const navLinks = [
   { label: "Home", href: "/#hero", page: "/", section: "hero" },
   { label: "Program", href: "/#program", page: "/program", section: "program" },
   { label: "Method", href: "/#method", page: "/method", section: "method" },
-  { label: "Results", href: "/#results", page: "/results", section: "results" },
   { label: "Community", href: "/#community", page: "/community", section: "community" },
   { label: "About Us", href: "/#about", page: "/about", section: "about" },
   { label: "Pricing", href: "/#pricing", page: "/pricing", section: "pricing" },
@@ -194,11 +193,9 @@ export const membershipFeatures = [
   "Community access",
   "Advanced learning resources",
   "Market education",
-  "Applicable trading updates and signals, where legally permissible",
   "Strategy refinement",
-  "Trading discipline",
-  "Funded-account preparation",
-  "Performance review",
+  "Trading discipline study",
+  "Learning review",
 ];
 
 export const journeySteps = [
@@ -206,12 +203,11 @@ export const journeySteps = [
   "Counselling",
   "₹5,000 enrollment",
   "2-week intensive program",
-  "Performance review",
+  "Learning review",
   "₹10,000 payment",
   "Advanced membership",
   "Community",
   "Continuing education",
-  "Funded account preparation",
 ];
 
 export const values = [
@@ -222,62 +218,18 @@ export const values = [
   "Continuous learning",
 ];
 
-export const results = [
-  {
-    id: "ashik-2026-05-01",
-    src: "/results/ashik-anil-2026-05-01.png",
-    width: 860,
-    height: 1024,
-    presentedTo: "Ashik Anil",
-    resultType: "Profit split",
-    amount: "$686.17",
-    date: "2026-05-01",
-    alt: "Payout certificate presented to Ashik Anil. Profit split $686.17. Date 2026-05-01.",
-  },
-  {
-    id: "ashik-2026-06-01",
-    src: "/results/ashik-anil-2026-06-01.png",
-    width: 861,
-    height: 1024,
-    presentedTo: "Ashik Anil",
-    resultType: "Profit split",
-    amount: "$347",
-    date: "2026-06-01",
-    alt: "Payout certificate presented to Ashik Anil. Profit split $347. Date 2026-06-01.",
-  },
-  {
-    id: "ashik-2026-07-02",
-    src: "/results/ashik-anil-2026-07-02.png",
-    width: 860,
-    height: 1024,
-    presentedTo: "Ashik Anil",
-    resultType: "Profit split",
-    amount: "$989.32",
-    date: "2026-07-02",
-    alt: "Payout certificate presented to Ashik Anil. Profit split $989.32. Date 2026-07-02.",
-  },
-  {
-    id: "clerin-2026-08-01",
-    src: "/results/clerin-reji-2026-08-01.png",
-    width: 868,
-    height: 1024,
-    presentedTo: "Clerin Reji",
-    resultType: "Profit split",
-    amount: "$988.59",
-    date: "2026-08-01",
-    alt: "Payout certificate presented to Clerin Reji. Profit split $988.59. Date 2026-08-01.",
-  },
-] as const;
+/** Public payout / performance galleries are disabled for payment-provider review. */
+export const results = [] as const;
 
 export const resultsDisclosure =
-  "Trading involves substantial risk and individual results vary. Payouts or performance examples shown are historical examples and do not guarantee future performance. MARKEX provides educational and training services and does not guarantee profits, returns or funded-account approval.";
+  "MARKEX Trading Academy provides educational and training services only. Trading financial markets involves substantial risk. MARKEX does not guarantee profits, returns or any particular financial outcome.";
 
 export const riskStatements = [
   "Trading financial markets involves substantial risk and may not be suitable for everyone.",
   "Past performance does not guarantee future results.",
   "Educational content does not constitute personalized investment advice.",
   "MARKEX does not guarantee profits, returns or trading outcomes.",
-  "Funded-account preparation does not guarantee acceptance or approval by any third-party provider.",
+  "MARKEX does not execute trades for students and does not manage customer funds.",
 ];
 
 export const testimonials: Testimonial[] = [];

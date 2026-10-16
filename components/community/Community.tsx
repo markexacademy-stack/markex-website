@@ -6,9 +6,10 @@ export function Community() {
     <Section id="community">
       <div className="grid items-center gap-12 lg:grid-cols-2">
         <div>
-          <SectionHeading index="12" title="You don't have to trade alone." />
-          <p className="mt-8 text-5xl font-semibold">150+</p>
-          <p className="mt-2 text-xs tracking-[0.2em] text-muted uppercase">Students</p>
+          <SectionHeading index="12" title="You don't have to learn alone." />
+          <p className="mt-8 text-sm leading-relaxed text-muted">
+            Advanced membership includes community access for discussion, educational updates and continued learning support.
+          </p>
           <ul className="mt-8 grid gap-2 sm:grid-cols-2">
             {communityFeatures.map((feature) => (
               <li key={feature} className="panel px-3 py-3 text-sm">

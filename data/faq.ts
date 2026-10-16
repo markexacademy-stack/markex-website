@@ -5,17 +5,17 @@ export const faqs: FaqItem[] = [
   {
     question: "Who can join MARKEX Trading Academy?",
     answer:
-      "Beginners and developing traders who want structured forex education can join. Share your experience level in the enrollment form so counselling can start from the right place.",
+      "Beginners and developing learners who want structured education about financial markets and trading concepts can join. Share your experience level in the enrollment form so counselling can start from the right place.",
   },
   {
     question: "Do beginners need prior experience?",
     answer:
-      "No. Prior forex knowledge is not required. The first week covers foundations, including how the forex market is organised and how to read a chart. Traders who already have some experience can join to tighten structure and discipline.",
+      "No. Prior forex knowledge is not required. The first week covers foundations, including how the forex market is organised and how to read a chart.",
   },
   {
     question: "How long is the intensive program?",
     answer:
-      "The intensive educational program runs for two weeks. After that, students complete a performance review. Students who continue may move into the separately described advanced membership.",
+      "The intensive educational program runs for two weeks. After that, students complete a learning review. Students who continue may move into the separately described advanced membership.",
   },
   {
     question: "What does the initial ₹5,000 payment cover?",
@@ -35,7 +35,7 @@ export const faqs: FaqItem[] = [
   {
     question: "What is included in the ₹10,000 advanced membership?",
     answer:
-      "The advanced membership may include continuing educational support, community access, advanced learning resources, market education, applicable trading updates or signals where legally permissible, strategy refinement, trading discipline, funded-account preparation and performance review. It does not guarantee profits, signals or funded-account approval.",
+      "The advanced membership may include continuing educational support, community access, advanced learning resources, market education, strategy refinement, trading-discipline study and a learning review. It does not guarantee profits or trading outcomes.",
   },
   {
     question: "How are classes delivered?",
@@ -67,12 +67,12 @@ export const faqs: FaqItem[] = [
   {
     question: "Does the academy guarantee profits?",
     answer:
-      "No. Trading involves substantial risk. MARKEX provides educational training and learning resources. MARKEX does not guarantee profits, returns or trading outcomes.",
+      "No. Trading involves substantial risk. MARKEX provides educational training and learning resources only. MARKEX does not guarantee profits, returns or trading outcomes.",
   },
   {
-    question: "Does the academy guarantee funded-account approval?",
+    question: "Do you provide trading signals?",
     answer:
-      "No. Funded-account preparation is educational preparation for third-party evaluations. MARKEX does not guarantee funding, evaluation passes or approval by any provider.",
+      "No. MARKEX Trading Academy does not sell trading signals as a product. The academy provides educational programs about market concepts and disciplined study.",
   },
   {
     question: "Does the academy execute trades or manage customer funds?",
@@ -80,13 +80,8 @@ export const faqs: FaqItem[] = [
       "No. MARKEX Trading Academy is an educational service. It does not execute trades for students, does not manage customer trading accounts and does not hold client brokerage funds.",
   },
   {
-    question: "Do you provide trading signals?",
-    answer:
-      "The advanced membership may include applicable trading updates or signals where legally permissible. These are educational market resources. They are not guaranteed, they are not personalized investment advice, and they are not a promise of profit.",
-  },
-  {
     question: "Is MARKEX a broker?",
     answer:
-      "No. MARKEX is a trading education academy. It provides educational and training services. This website does not claim a financial-regulator licence or registration. Any registration would be published only when it is verified.",
+      "No. MARKEX is an educational academy. It provides educational and training services. This website does not claim a financial-regulator licence or registration.",
   },
 ];

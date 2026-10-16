@@ -5,9 +5,8 @@ import { site } from "@/data/site";
  * OWNER CONFIRMATIONS STILL REQUIRED (internal — not published as placeholders):
  * - Confirm refundInitiationBusinessDays (currently published as 7 business days after approval).
  * - Confirm supportResponseTarget (currently published as within 2 business days).
- * - Trading signals / market updates and funded-account preparation may need payment-provider
- *   or regulatory review before live payments are accepted.
  * - Website text does not change the merchant legal name recorded with a payment provider.
+ * - Public marketing no longer offers trading signals or funded-account products.
  */
 
 const updated = "16 October 2026";
@@ -124,7 +123,7 @@ export const terms: LegalDocument = {
     {
       heading: "Student responsibilities and community use",
       paragraphs: [
-        "You agree to provide accurate contact details and to use the website and community for lawful educational purposes. You are responsible for your own trading decisions and for following the rules of any third-party broker or funded-account provider you choose.",
+        "You agree to provide accurate contact details and to use the website and community for lawful educational purposes. You are responsible for your own trading decisions.",
         "Course materials, recordings and community access, when provided, are for your personal learning. Do not copy, redistribute or resell them without written permission from MARKEX.",
       ],
     },
@@ -274,21 +273,14 @@ export const riskDisclosure: LegalDocument = {
       heading: "Market risk",
       paragraphs: [
         "Trading financial markets involves substantial risk and may not be suitable for everyone. You can lose money. Leverage can increase both gains and losses.",
-        "Past performance does not guarantee future results. Payout certificates and other performance examples on this website are historical examples. They are not a forecast and they are not typical-result claims.",
+        "Past performance does not guarantee future results. Illustrative market examples on this website are educational only. They are not forecasts and they are not typical-result claims.",
       ],
     },
     {
       heading: "Education, not advice",
       paragraphs: [
         "MARKEX Trading Academy provides education. Educational content does not constitute personalized investment advice, investment management, brokerage or trade execution.",
-        "MARKEX does not guarantee profits, income, returns, trading outcomes or funded-account approval.",
-      ],
-    },
-    {
-      heading: "Funded accounts and market updates",
-      paragraphs: [
-        "Funded-account preparation does not guarantee acceptance or approval by any third-party provider. Capital levels such as ₹5 lakh and above refer to programs offered by those providers, subject to their rules and to student eligibility. MARKEX does not guarantee that capital.",
-        "Any trading update or signal included in advanced membership, where legally permissible, is an educational resource. It is not a guaranteed signal and not a personal recommendation. Services beyond education may require separate legal or payment-provider review.",
+        "MARKEX does not sell trading signals as a product, does not execute trades for students, does not manage customer funds, and does not guarantee profits, income, returns or trading outcomes.",
       ],
     },
   ],
@@ -303,21 +295,15 @@ export const disclaimer: LegalDocument = {
       heading: "General",
       paragraphs: [
         "Content on markex-academy.com is published by MARKEX Trading Academy for education and for describing its programs. It is not an offer to buy or sell any financial instrument.",
-        "Charts on this website are illustrative market visualizations unless a real payout certificate supplied by MARKEX is shown. Illustrative charts do not show live prices and are not trading recommendations.",
+        "Charts on this website are illustrative market visualizations for education. Illustrative charts do not show live prices and are not trading recommendations.",
       ],
     },
     {
       heading: "No unsupported claims",
       paragraphs: [
-        "MARKEX does not claim guaranteed profit, guaranteed income, guaranteed returns, guaranteed signals, guaranteed funded accounts or guaranteed success.",
+        "MARKEX does not claim guaranteed profit, guaranteed income, guaranteed returns or guaranteed success.",
         "MARKEX does not display regulatory registrations, broker relationships, awards or certifications on this website unless they have been verified and published. None are claimed here.",
         "A disclaimer does not replace any authorization that may be legally required for an actual service.",
-      ],
-    },
-    {
-      heading: "Third parties",
-      paragraphs: [
-        "Payout certificates may show the name of a third-party firm because that name is printed on the document supplied by MARKEX. Displaying the document does not mean MARKEX is that firm, or that every student will receive a similar document.",
       ],
     },
   ],

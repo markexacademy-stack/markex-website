@@ -15,8 +15,8 @@ export default function CommunityPage() {
     <>
       <PageHero
         eyebrow="Community"
-        title="You don't have to trade alone."
-        text="MARKEX describes lifetime community support alongside a student community of 150+ people. The interface on this page is an illustration, not a screenshot of private conversations."
+        title="You don't have to learn alone."
+        text="Advanced membership includes educational community access. The interface on this page is an illustration, not a screenshot of private conversations."
       />
       <Community />
       <FinalCta />

@@ -10,7 +10,6 @@ const programLinks = [
   { href: "/method", label: "Trade" },
   { href: "/method", label: "Grow" },
   { href: "/pricing", label: "Pricing" },
-  { href: "/results", label: "Results" },
   { href: "/community", label: "Community" },
 ];
 

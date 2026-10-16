@@ -8,7 +8,7 @@ import { site, values, weeks } from "@/data/site";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "MARKEX Trading Academy, owned by Akhil Shijo, provides structured educational programs on forex markets, technical analysis, risk management and trading discipline.",
+    "MARKEX Trading Academy, owned by Akhil Shijo, provides structured educational programs on financial markets, technical analysis, risk management and trading discipline.",
   alternates: { canonical: "/about" },
 };
 
@@ -38,19 +38,19 @@ export default function AboutPage() {
             MARKEX Trading Academy provides structured educational programs covering forex market fundamentals, technical analysis, price action, trading strategies, trading psychology, risk management and trading discipline.
           </p>
           <p>
-            The academy offers a two-week intensive educational program and a separately described advanced membership. MARKEX is not a broker, bank, investment firm, fund manager or licensed financial adviser.
+            The academy offers a two-week intensive educational program and a separately described advanced membership. MARKEX is an educational service. It is not a broker, bank, investment firm, fund manager or licensed financial adviser.
           </p>
           <p>
-            Financial markets involve risk. Participation in an educational program does not guarantee profits, trading success, funding or any particular financial outcome.
+            Financial markets involve risk. Participation in an educational program does not guarantee profits, trading success or any particular financial outcome.
           </p>
         </div>
       </section>
       <section className="mx-auto w-full max-w-7xl px-5 py-16 md:px-8">
         <h2 className="text-3xl font-semibold tracking-tight uppercase">Who the program is for</h2>
         <ul className="mt-6 grid gap-3 text-muted md:grid-cols-3">
-          <li className="border border-line p-5">Beginners who want a structured start in forex education.</li>
-          <li className="border border-line p-5">Developing traders who want a clearer study and review process.</li>
-          <li className="border border-line p-5">Students preparing to study the rules of third-party funded evaluations.</li>
+          <li className="border border-line p-5">Beginners who want a structured start in market education.</li>
+          <li className="border border-line p-5">Developing learners who want a clearer study and review process.</li>
+          <li className="border border-line p-5">Anyone seeking organised education on market concepts and risk awareness.</li>
         </ul>
 
         <h2 className="mt-14 text-3xl font-semibold tracking-tight uppercase">How students enroll</h2>
@@ -58,7 +58,7 @@ export default function AboutPage() {
           <li>Submit an enquiry or enrollment form with accurate contact details.</li>
           <li>Complete the initial ₹5,000 payment for the two-week intensive program.</li>
           <li>Receive access and schedule information after the payment is verified.</li>
-          <li>After the performance review, decide whether to continue with the ₹10,000 advanced membership.</li>
+          <li>After the learning review, decide whether to continue with the ₹10,000 advanced membership.</li>
         </ol>
 
         <h2 className="mt-14 text-3xl font-semibold tracking-tight uppercase">Intensive program and advanced membership</h2>
@@ -86,7 +86,7 @@ export default function AboutPage() {
           <article className="border border-line p-6">
             <h3 className="text-lg uppercase">Advanced membership · ₹10,000</h3>
             <p className="mt-3 text-sm leading-relaxed text-muted">
-              A separate step after the intensive program and performance review. Total advertised program fee: ₹15,000.
+              A separate educational step after the intensive program and learning review. Total advertised program fee: ₹15,000.
             </p>
             <ul className="mt-6 space-y-2 text-sm text-muted">
               {values.map((value) => (
@@ -94,7 +94,7 @@ export default function AboutPage() {
               ))}
             </ul>
             <p className="mt-6 text-sm leading-relaxed text-muted">
-              Community access, continuing education and funded-account preparation may be included as described on the pricing page. Profits and funded-account approval are not guaranteed.
+              Community access and continuing education may be included as described on the pricing page. Profits are not guaranteed.
             </p>
           </article>
         </div>
