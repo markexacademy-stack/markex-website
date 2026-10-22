@@ -3,7 +3,7 @@
 Educational website for MARKEX Trading Academy — structured programs on forex market fundamentals, technical analysis, trading strategies, psychology and risk management.
 
 - Production domain: https://markex-academy.com/
-- Owner / Proprietor: Akhil Shijo
+- Owner: MARKEX Academy
 - Stack: Next.js App Router, React, TypeScript, Tailwind CSS
 
 ## Scripts

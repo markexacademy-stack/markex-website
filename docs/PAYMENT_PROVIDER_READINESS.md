@@ -10,9 +10,9 @@ Last reviewed: 16 October 2026 (underwriting cleanup pass)
 | Item | Status | Notes |
 | --- | --- | --- |
 | Brand MARKEX TRADING ACADEMY | PASS | |
-| Owner Akhil Shijo | PASS | |
+| Owner MARKEX Academy | PASS | |
 | Address published | PASS | Mittathanickal House, Prakash P.O., Udayagiri, Idukki, Kerala, India – 685609 |
-| Phone +91 81378 64105 | PASS | |
+| Phone +91 8590861862 | PASS | |
 | Email markexacademy@gmail.com | PASS | |
 | Razorpay dashboard fields match website | OWNER ACTION | Update merchant profile separately |
 

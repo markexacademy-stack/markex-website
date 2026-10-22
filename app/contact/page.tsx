@@ -8,7 +8,7 @@ import { whatsappHref } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Contact MARKEX Trading Academy, owned by Akhil Shijo, about enrollment, course access, payments, refunds and customer grievances.",
+    "Contact MARKEX Trading Academy, owned by MARKEX Academy, about enrollment, course access, payments, refunds and customer grievances.",
   alternates: { canonical: "/contact" },
 };
 

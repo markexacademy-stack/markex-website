@@ -7,7 +7,7 @@ Production domain: https://markex-academy.com/
 
 ## Summary of this pass
 
-Updated business identity to the supplied Idukki address and phone **+91 81378 64105**, replaced the old WhatsApp number **8590861862**, aligned refund policy to the **initial ₹5,000 enrollment commitment**, completed FAQ answers, expanded About/Contact/grievance copy, and refreshed policy pages.
+Business identity: owner **MARKEX Academy**, phone/WhatsApp **+91 8590861862**, Idukki address retained. Policies, pricing, and FAQ remain aligned to the educational offer.
 
 No CODESPULSE HOSPITALS string was found in the project source controlled by this repository.
 
@@ -41,8 +41,9 @@ No CODESPULSE HOSPITALS string was found in the project source controlled by thi
 
 | Item | Status |
 | --- | --- |
-| Phone / WhatsApp `8590861862` / `918590861862` | Replaced with `+91 81378 64105` / `918137864105` |
-| Address Kazhakuttam / 695581 | Replaced with Mittathanickal House, Prakash P.O., Udayagiri, Idukki, Kerala, India – 685609 |
+| Phone / WhatsApp | `+91 8590861862` / `918590861862` |
+| Owner | MARKEX Academy (Akhil Shijo removed from public site) |
+| Address | Mittathanickal House, Prakash P.O., Udayagiri, Idukki, Kerala, India – 685609 |
 | Brand “MARKEX Forex Trading Academy” in public metadata/manifest/logo alt | Updated to MARKEX Trading Academy |
 | CODESPULSE HOSPITALS | Not present in controlled source |
 
@@ -82,7 +83,7 @@ This website project does **not** claim that Razorpay (or any provider) has appr
 | ESLint on key edited files | PASS |
 | Local route HTTP 200 | PASS — home, about, contact, pricing, faq, enroll, program, privacy, terms, refund, cancellation, shipping, risk, disclaimer |
 | Old phone / Kazhakuttam / CODESPULSE in rendered HTML | PASS — absent |
-| New phone, WhatsApp `wa.me/918137864105`, address, email | PASS — present |
+| Phone, WhatsApp `wa.me/918590861862`, address, email | PASS — present |
 | Refund copy: initial amount + 7 business days | PASS |
 | Live https://markex-academy.com/ after deploy | NOT TESTED |
 | Real payment transaction | NOT TESTED |

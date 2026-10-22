@@ -8,7 +8,7 @@ import { site, values, weeks } from "@/data/site";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "MARKEX Trading Academy, owned by Akhil Shijo, provides structured educational programs on financial markets, technical analysis, risk management and trading discipline.",
+    "MARKEX Trading Academy, owned by MARKEX Academy, provides structured educational programs on financial markets, technical analysis, risk management and trading discipline.",
   alternates: { canonical: "/about" },
 };
 
