@@ -7,7 +7,7 @@ Production domain: https://markex-academy.com/
 
 ## Summary of this pass
 
-Business identity: owner **MARKEX Academy**, phone/WhatsApp **+91 8590861862**, Idukki address retained. Policies, pricing, and FAQ remain aligned to the educational offer.
+Business identity: operated by **MARKEX Academy**, phone/WhatsApp **+91 8590861862**. Personal proprietor name and Mittathanickal/Idukki address removed from public pages.
 
 No CODESPULSE HOSPITALS string was found in the project source controlled by this repository.
 
@@ -42,8 +42,8 @@ No CODESPULSE HOSPITALS string was found in the project source controlled by thi
 | Item | Status |
 | --- | --- |
 | Phone / WhatsApp | `+91 8590861862` / `918590861862` |
-| Owner | MARKEX Academy (Akhil Shijo removed from public site) |
-| Address | Mittathanickal House, Prakash P.O., Udayagiri, Idukki, Kerala, India – 685609 |
+| Operator | MARKEX Academy |
+| Personal proprietor / Idukki address | Removed from public site |
 | Brand “MARKEX Forex Trading Academy” in public metadata/manifest/logo alt | Updated to MARKEX Trading Academy |
 | CODESPULSE HOSPITALS | Not present in controlled source |
 

@@ -15,14 +15,6 @@ export function organizationJsonLd() {
     description: site.positioning,
     email: site.email,
     telephone: site.phone,
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "Mittathanickal House, Prakash P.O., Udayagiri",
-      addressLocality: "Idukki",
-      addressRegion: "Kerala",
-      postalCode: "685609",
-      addressCountry: "IN",
-    },
   };
 }
 

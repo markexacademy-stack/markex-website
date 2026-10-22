@@ -8,7 +8,7 @@ import { whatsappHref } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Contact MARKEX Trading Academy, owned by MARKEX Academy, about enrollment, course access, payments, refunds and customer grievances.",
+    "Contact MARKEX Trading Academy about enrollment, course access, payments, refunds and customer grievances.",
   alternates: { canonical: "/contact" },
 };
 
@@ -39,17 +39,6 @@ export default function ContactPage() {
             <h2 className="text-xl uppercase">Business</h2>
             <p className="mt-4 text-lg text-paper">{site.fullName}</p>
             <p className="mt-3 text-sm leading-relaxed text-muted">{site.operatorStatement}</p>
-            <p className="mt-3 text-sm text-paper">Owner / Proprietor: {site.legalOperator}</p>
-          </div>
-          <div>
-            <h2 className="text-xl uppercase">Business address</h2>
-            <address className="mt-4 text-sm leading-relaxed text-muted not-italic">
-              {site.addressLines.map((line) => (
-                <span key={line} className="block">
-                  {line}
-                </span>
-              ))}
-            </address>
           </div>
           <div>
             <h2 className="text-xl uppercase">Direct contact</h2>

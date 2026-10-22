@@ -13,11 +13,7 @@ export const site = {
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "markexacademy@gmail.com",
   phone: process.env.NEXT_PUBLIC_CONTACT_PHONE || "+918590861862",
   phoneLabel: "+91 8590861862",
-  addressLines: [
-    "Mittathanickal House",
-    "Prakash P.O., Udayagiri",
-    "Idukki, Kerala, India – 685609",
-  ],
+  addressLines: [] as string[],
   whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "918590861862",
   whatsappLabel: "8590861862",
   supportResponseTarget: "within 2 business days",

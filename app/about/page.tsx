@@ -8,7 +8,7 @@ import { site, values, weeks } from "@/data/site";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "MARKEX Trading Academy, owned by MARKEX Academy, provides structured educational programs on financial markets, technical analysis, risk management and trading discipline.",
+    "MARKEX Trading Academy provides structured educational programs on financial markets, technical analysis, risk management and trading discipline.",
   alternates: { canonical: "/about" },
 };
 
@@ -24,14 +24,6 @@ export default function AboutPage() {
         <div className="max-w-sm">
           <Logo priority className="logo-float" />
           <p className="mt-8 text-sm leading-relaxed text-muted">{site.operatorStatement}</p>
-          <p className="mt-3 text-sm text-paper">Owner / Proprietor: {site.legalOperator}</p>
-          <address className="mt-4 text-sm leading-relaxed text-muted not-italic">
-            {site.addressLines.map((line) => (
-              <span key={line} className="block">
-                {line}
-              </span>
-            ))}
-          </address>
         </div>
         <div className="space-y-4 text-muted leading-relaxed">
           <p>

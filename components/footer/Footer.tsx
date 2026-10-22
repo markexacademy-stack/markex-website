@@ -124,13 +124,6 @@ export function Footer() {
                 <a href={`mailto:${site.email}`} className="transition hover:text-accent">
                   {site.email}
                 </a>
-                <address className="not-italic text-muted">
-                  {site.addressLines.map((line) => (
-                    <span key={line} className="block">
-                      {line}
-                    </span>
-                  ))}
-                </address>
                 {social.map((item) => (
                   <a key={item.href} href={item.href} className="transition hover:text-accent" rel="noreferrer">
                     {item.label}

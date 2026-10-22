@@ -12,7 +12,6 @@ import { site } from "@/data/site";
 const updated = "16 October 2026";
 const phone = site.phoneLabel;
 const email = site.email;
-const address = site.addressLines.join(", ");
 const operator = site.legalOperator;
 
 export const refundEligibility: string[] = [];
@@ -31,7 +30,7 @@ export const privacyPolicy: LegalDocument = {
     {
       heading: "Who operates the website",
       paragraphs: [
-        `The public brand is MARKEX Trading Academy. The owner and proprietor is ${operator}. Privacy and support requests can be sent to ${email} or ${phone}. The business address is ${address}.`,
+        `The public brand is MARKEX Trading Academy. This website is operated by ${operator}. Privacy and support requests can be sent to ${email} or ${phone}.`,
       ],
     },
     {
@@ -87,7 +86,7 @@ export const terms: LegalDocument = {
       heading: "Business identity",
       paragraphs: [
         `These terms apply to the website at ${site.domain}/. This website is operated by ${operator} under the public brand MARKEX Trading Academy.`,
-        `Business address: ${address}. Support: ${email} and ${phone}.`,
+        `Support: ${email} and ${phone}.`,
       ],
     },
     {
